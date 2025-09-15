@@ -1,0 +1,6 @@
+# OpenMetadata Server Configuration
+hostPort: http://your-openmetadata-host:8585/api
+api_version: v1
+authProvider: openmetadata
+securityConfig:
+  jwtToken: "your-openmetadata-jwt-token"  # Replace with your actual JWT token
